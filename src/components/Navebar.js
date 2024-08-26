@@ -12,7 +12,7 @@ const Navebar = () => {
     <div className="relative w-full">
       {/* Navbar Container */}
       <div className="fixed top-0 left-0 w-full bg-black text-white z-50">
-        <div className="flex justify-center text-2xl items-center px-6 py-4 md:py-5">
+        <div className="flex justify-center text-xl items-center px-6 py-4 md:py-5">
           {/* Uncomment and replace with your logo */}
           {/* <div className="flex items-center">
             <img src="logo.png" className="w-36" alt="Logo" />
