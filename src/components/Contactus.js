@@ -27,9 +27,9 @@ const Contactus = () => {
       return;
     }
 
-    const serviceID = "service_i46r7zx";
-    const templateID = "template_lifb66l";
-    const userID = "6r2dYD8hHTtnRBovF";
+   const serviceID = process.env.REACT_APP_SERVICE_ID;
+   const templateID = process.env.REACT_APP_TEMPLATE_ID;
+   const userID = process.env.REACT_APP_USER_ID;
 
     emailjs
       .send(serviceID, templateID, formData, userID)
