@@ -1,0 +1,50 @@
+/* Gallery.css */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.gallery-item {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 15px;
+  width: 100%;
+}
+
+.overlay h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.overlay p {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .gallery-item {
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-item {
+    height: 200px;
+  }
+}

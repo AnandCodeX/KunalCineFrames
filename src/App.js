@@ -7,15 +7,18 @@ import Gallary from './components/Gallary';
 import Main from './components/Main';
 import Navebar from './components/Navebar';
 
+
+
 function App() {
   return (
     <div>
-    <Navebar/>
-    <Main/>
-    <Gallary/>
-    <About/>
-    <Contactus/>
-    <Footer/>
+      <Navebar />
+      <Main />
+      <Gallary />
+      <About />
+      <Contactus />
+      <Footer />
+      
     </div>
   );
 }
