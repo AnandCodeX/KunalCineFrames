@@ -11,7 +11,6 @@ const About = () => {
         <h2 className="text-3xl sm:text-4xl font-semibold mb-4">
           A little bit about me
         </h2>
-       
       </div>
       <div className="container mx-auto">
         <div className="bg-white text-gray-800 p-6 sm:p-8 md:p-10 rounded-lg shadow-lg max-w-full sm:max-w-2xl lg:max-w-3xl mx-auto">
@@ -24,7 +23,8 @@ const About = () => {
           </blockquote>
 
           <h3 className="font-semibold text-lg sm:text-xl mb-4">
-            Working together for over 6 years!
+            Having filmed love stories for years, I bring expertise and passion
+            to making your wedding memories unforgettable.
           </h3>
           <p className="text-sm sm:text-base mb-4">
             At KunalCineFrames, we specialize in crafting visual narratives that

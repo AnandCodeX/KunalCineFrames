@@ -19,7 +19,7 @@ const Main = () => {
           allowFullScreen
         ></iframe>
       )}
-      <div className="relative z-10 text-center text-white p-5">
+      <div className="relative z-10 text-center text-white p-5 mt-8">
         <h1 className="text-4xl md:text-5xl font-bold mb-5">
           A breathtaking compilation of moments
         </h1>
